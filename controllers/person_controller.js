@@ -25,7 +25,7 @@ module.exports = {
     },
 
     updatePerson(req, res, next) {
-        let user = new Person("Robin", "Schellius")
+        let user = new Person("Thomas", "Notenboom")
         res.status(200).json(user).end();
     },
     
@@ -50,7 +50,7 @@ module.exports = {
 
     getPersonById(req, res, next) {
 
-        let user = new Person("Robin", "Schellius")
+        let user = new Person("Thomas", "Notenboom")
         res.status(200).json(user).end();
     },
 
