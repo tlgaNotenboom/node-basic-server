@@ -15,6 +15,9 @@ app.use('*', function(req, res, next){
 	next()
 })
 
+app.use('/', function(req, res, next){
+	rs.send("<iframe width=\"420\" height=\"315\" src=\"https://www.youtube.com/embed/tgbNymZ7vqY\"> </iframe>")
+})
 app.use('/api', person_routes)
 
 app.get('/api/greeting', function (req, res, next) {
