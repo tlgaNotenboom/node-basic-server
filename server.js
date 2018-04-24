@@ -16,7 +16,7 @@ app.use('*', function(req, res, next){
 })
 
 app.use('/', function(req, res, next){
-	rs.send("<iframe width=\"420\" height=\"315\" src=\"https://www.youtube.com/embed/tgbNymZ7vqY\"> </iframe>")
+	rs.send('<h1> Yo waddup gasten </h1> <h2> BanjoMovies hier </h2> <h3> 50 redenen waarom je je huiswerk niet gemaakt hebt </h3><iframe width="1000" height="600"  src="https://www.youtube.com/embed/UpFI7_4uxNI?autoplay=1">  </iframe>')
 })
 app.use('/api', person_routes)
 
